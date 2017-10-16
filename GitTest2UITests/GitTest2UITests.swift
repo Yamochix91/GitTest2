@@ -4,7 +4,7 @@
 //
 //  Created by git1 on 17-10-16.
 //  Copyright © 2017 git1. All rights reserved.
-//
+// Ceci est un nouveau commentaire
 
 import XCTest
 
