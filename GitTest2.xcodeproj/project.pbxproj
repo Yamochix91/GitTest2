@@ -16,6 +16,9 @@
 		C6E7950F1F94E15D00403881 /* GitTest2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E7950E1F94E15D00403881 /* GitTest2UITests.swift */; };
 		C6E7951C1F94E4A200403881 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E794EE1F94E15D00403881 /* AppDelegate.swift */; };
 		C6E7951D1F94E4A300403881 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E794EE1F94E15D00403881 /* AppDelegate.swift */; };
+		C6E795201F94E84A00403881 /* arbreDeGit.png in Resources */ = {isa = PBXBuildFile; fileRef = C6E7951F1F94E7AA00403881 /* arbreDeGit.png */; };
+		C6E795211F94E84A00403881 /* arbreDeGit.png in Resources */ = {isa = PBXBuildFile; fileRef = C6E7951F1F94E7AA00403881 /* arbreDeGit.png */; };
+		C6E795221F94E84A00403881 /* arbreDeGit.png in Resources */ = {isa = PBXBuildFile; fileRef = C6E7951F1F94E7AA00403881 /* arbreDeGit.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,7 @@
 		C6E7950A1F94E15D00403881 /* GitTest2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitTest2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6E7950E1F94E15D00403881 /* GitTest2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitTest2UITests.swift; sourceTree = "<group>"; };
 		C6E795101F94E15D00403881 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6E7951F1F94E7AA00403881 /* arbreDeGit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arbreDeGit.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		C6E794ED1F94E15D00403881 /* GitTest2 */ = {
 			isa = PBXGroup;
 			children = (
+				C6E7951E1F94E73B00403881 /* Resources */,
 				C6E794EE1F94E15D00403881 /* AppDelegate.swift */,
 				C6E794F01F94E15D00403881 /* ViewController.swift */,
 				C6E794F21F94E15D00403881 /* Main.storyboard */,
@@ -125,6 +130,14 @@
 				C6E795101F94E15D00403881 /* Info.plist */,
 			);
 			path = GitTest2UITests;
+			sourceTree = "<group>";
+		};
+		C6E7951E1F94E73B00403881 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C6E7951F1F94E7AA00403881 /* arbreDeGit.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +249,7 @@
 			files = (
 				C6E794F91F94E15D00403881 /* LaunchScreen.storyboard in Resources */,
 				C6E794F61F94E15D00403881 /* Assets.xcassets in Resources */,
+				C6E795201F94E84A00403881 /* arbreDeGit.png in Resources */,
 				C6E794F41F94E15D00403881 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,6 +258,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6E795211F94E84A00403881 /* arbreDeGit.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +266,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6E795221F94E84A00403881 /* arbreDeGit.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
